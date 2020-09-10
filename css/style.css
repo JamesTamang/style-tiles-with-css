@@ -14,7 +14,7 @@ use the fonts in other ways in the font hierarchy etc. */
 
 /* change these */
 :root {
-  --bg-color: black;
+  --bg-color:black;
   --link-color: white;
   --link-hover-color: grey;
   --color-4: darkblue;
@@ -71,6 +71,8 @@ footer {
   padding-right: 0.75em;
   font-weight: bold;
   color: white;
+    text-align: center;
+    grid-template-columns: 1/-1;
 }
 
 .header-wrapper h2 {
@@ -151,15 +153,11 @@ ul li:last-child {
 }
 
 .texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(https://png.pngtree.com/png-clipart/20190705/original/pngtree-hd-marble-texture-png-image_4363835.jpg);
 }
 
 .texture-swatch-2 {
-  background: url(../img/subtle_grunge.png) top left repeat;
-}
-
-.texture-swatch-1 {
-  background: url(../img/pw_maze_white.png) top left repeat;
+  background: url(https://png.pngtree.com/png-clipart/20191120/original/pngtree-classic-grunge-style-abstract-texture-background-png-image_5072254.jpg);
 }
 
 .texture-swatch-3 {
@@ -205,6 +203,7 @@ button:focus-within {
 
 .typography-main {
   color: var(--main-text-color);
+    font-size: 20px;
 }
 
 .h1-sample {
@@ -253,9 +252,7 @@ p[class*="font-details-"] {
   opacity: 0.5;
 }
 
-.adjectives ul {
-  flex-direction: column;
-}
+
 
 footer {
   font-style: italic;
